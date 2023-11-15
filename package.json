@@ -1,0 +1,25 @@
+{
+  "name": "vite-vue3-element3-common",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.6.0",
+    "axios": "^1.6.2",
+    "element3": "^0.0.40",
+    "vue": "^3.3.4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "eslint": "^8.53.0",
+    "eslint-plugin-vue": "^9.18.1",
+    "sass": "^1.69.5",
+    "vite": "^4.4.11"
+  }
+}
