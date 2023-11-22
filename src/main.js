@@ -3,9 +3,10 @@ import App from './App.vue'
 import router from './router'
 import './router/router-guard'
 import store from './store'
-import Element3 from 'element3'
-import 'element3/lib/theme-chalk/index.css'
+import './assets/main.css'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 
 const app = createApp(App)
 
-app.use(router).use(store).use(Element3).mount('#app')
+app.use(router).use(store).use(ElementPlus).mount('#app')
