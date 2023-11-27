@@ -11,7 +11,9 @@
     "@vueuse/core": "^10.6.0",
     "axios": "^1.6.2",
     "element-plus": "^2.4.2",
+    "rollup-plugin-visualizer": "^5.9.2",
     "vue": "^3.3.4",
+    "vue-router": "^4.2.5",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
